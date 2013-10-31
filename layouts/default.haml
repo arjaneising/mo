@@ -1,0 +1,25 @@
+!!! 5
+%html{ :lang => 'en' }
+  %head
+    %meta{ :charset => 'utf-8' }
+    %title Eising's Mo
+    %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale=1.0 maximum-scale=1.0' }
+    %link{ :rel => 'icon', :href => '/favicon.ico' }
+    %link{ :rel => 'stylesheet', :media => 'screen,projection', :href => '/assets/stylesheets/screen.css' }
+
+  %body
+    %header
+      %h1 Eising's Mo
+      %h2 Collecting money for men's health
+
+    %main
+      = yield
+
+    %footer
+      %p
+        Want to support my mo?
+        %a{ :href => 'http://nl.movember.com/mospace/7777989' } Donate here!
+
+      %p
+        Follow my progress on Twitter!
+        %a{ :href => 'https://twitter.com/eising' } @eising

@@ -1,0 +1,100 @@
+@import 'compass'
+
+$light_a: #CCC6BB
+$light_b: #EAE8DB
+$dark: #3B3428
+
+$accent: #279596
+$tint: #75751E
+
+*
+  border: 0
+  list-style: none
+  margin: 0
+  padding: 0
+
+body
+  background: $light_b
+  color: $dark
+  font: 125% Monaco, monospace
+
+article, aside, canvas, details, figcaption, figure, footer, header, main, nav, progress, section, summary, video
+  display: block
+
+header
+  background: $accent url(/images/mo-feet.png) no-repeat 90% 100%
+  padding: 1em 1em 8em 1em
+
+  h1
+    color: $light_a
+    font-size: 2em
+    font-style: italic
+    font-weight: normal
+
+  h2
+    color: $light_b
+    font-size: 1.25em
+    font-style: normal
+    font-weight: normal
+
+main
+  padding: 1em
+  
+  table
+    margin: 1em auto
+
+    td
+      +background-size(100% 100%)
+      padding: 0.25em
+      text-align: center
+
+    .other
+      color: mix($tint, $light_b)
+
+footer
+  background: $light_a
+  margin-top: 5em
+  padding: 2em 1em
+
+  p
+    font-size: 1.5em
+    text-align: center
+
+    & + p
+      margin-top: 1em
+
+  a
+    color: $tint
+
+    &:hover,
+    &:focus
+      color: $accent
+
+@media only screen and (min-width: 40em)
+  header
+    padding: 2em 12em 2em 2em
+
+  main
+    padding: 2em
+
+    table
+      margin: 2em auto
+
+      td
+        padding: 1em
+
+  footer
+    padding: 4em 2em
+
+@media only screen and (min-width: 55em)
+  header
+    padding: 3em 12em 3em 3em
+
+  main
+    padding: 3em
+
+    table td
+      padding: 2em
+
+  footer
+    padding: 6em 3em
