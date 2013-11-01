@@ -39,16 +39,53 @@ header
 
 main
   padding: 1em
+
+  section
+    border-top: 0.5em dashed $light_a
+    padding: 2em 0
+
+    &:first-child,
+    &:first-of-type
+      border-top: none
+
+  h1,
+  h2,
+  p
+    text-align: center
+
+  p
+    line-height: 1.5em
+    margin: 0 auto 1.5em
+    max-width: 40em
+
+    a
+      color: $tint
+
+      &:hover,
+      &:focus
+        color: $accent
+
+  img
+    display: block
+    margin: 1em auto
+    max-width: 40em
+    width: 90%
   
   table
     margin: 1em auto
 
     td
       +background-size(100% 100%)
+      color: $accent
       padding: 0.25em
       text-align: center
 
-    .other
+      a
+        color: $accent
+        text-decoration: underlne
+
+    .other,
+    .other a
       color: mix($tint, $light_b)
 
 footer

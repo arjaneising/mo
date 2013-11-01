@@ -1,43 +1,62 @@
-%h1 Mocalendar
+%section#goal
+  %h2 Eising goes #movember
+  %p I want to gather some bucks for men's health during #movember. I've shaven off my beard on November 1st, and will grow a mo'!
+  %p
+    Want to support me in my quest for a better men's health?
+    %a{ :href => 'http://nl.movember.com/mospace/7777989' } Donations are welcome!
 
-%table
-  %tr
-    %td.other 28
-    %td.other 29
-    %td.other 30
-    %td.other{ :style => 'background-image:url(/images/photobooth/okt-31-small.jpg)', 'data-big' => '/images/photobooth/okt-31-big.jpg' } 31
-    %td 1
-    %td 2
-    %td 3
-  %tr
-    %td 4
-    %td 5
-    %td 6
-    %td 7
-    %td 8
-    %td 9
-    %td 10
-  %tr
-    %td 11
-    %td 12
-    %td 13
-    %td 14
-    %td 15
-    %td 16
-    %td 17
-  %tr
-    %td 18
-    %td 19
-    %td 20
-    %td 21
-    %td 22
-    %td 23
-    %td 24
-  %tr
-    %td 25
-    %td 26
-    %td 27
-    %td 28
-    %td 29
-    %td 30
-    %td.other 1
+%section#mocalendar
+  %h2 Mocalendar
+  %table
+    %tr
+      %td.other 28
+      %td.other 29
+      %td.other 30
+      %td.other{ :style => 'background-image:url(/images/photobooth/okt-31-small.jpg)' }
+        %a{ :href => '#okt31' } 31
+      %td{ :style => 'background-image:url(/images/photobooth/nov-01-small.jpg)' }
+        %a{ :href => '#nov01' } 1
+      %td 2
+      %td 3
+    %tr
+      %td 4
+      %td 5
+      %td 6
+      %td 7
+      %td 8
+      %td 9
+      %td 10
+    %tr
+      %td 11
+      %td 12
+      %td 13
+      %td 14
+      %td 15
+      %td 16
+      %td 17
+    %tr
+      %td 18
+      %td 19
+      %td 20
+      %td 21
+      %td 22
+      %td 23
+      %td 24
+    %tr
+      %td 25
+      %td 26
+      %td 27
+      %td 28
+      %td 29
+      %td 30
+      %td.other 1
+
+%section#nov01
+  %h2 November 1st
+  %p Clean shave
+  %img{ :src => '/images/photobooth/nov-01-big.jpg', :alt => 'Clean shave' }
+
+%section#okt31
+  %h2 October 31st
+  %p Still a bushy beard
+  %img{ :src => '/images/photobooth/okt-31-big.jpg', :alt => 'Still a bushy beard' }
