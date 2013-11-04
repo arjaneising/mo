@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"I<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
       </section>
       <section id='thanks'>
         <h2>Thanks</h2>
-        <p>To Reinier, Henk, Charis, Lauren, Roy and 1 anonymous person for the 85 euros already collected!</p>
+        <p>To Reinier, Henk, Charis, Lauren, Roy, Sander, Kilian and 1 anonymous person for the 130 euros already collected!</p>
       </section>
       <section id='mocalendar'>
         <h2>Mocalendar</h2>
@@ -46,7 +46,9 @@
             </td>
           </tr>
           <tr>
-            <td>4</td>
+            <td style='background-image:url(/images/photobooth/nov-04-small.jpg)'>
+              <a href='#nov04'>4</a>
+            </td>
             <td>5</td>
             <td>6</td>
             <td>7</td>
@@ -83,6 +85,11 @@
           </tr>
         </table>
       </section>
+      <section id='nov04'>
+        <h2>Monday November 4nd</h2>
+        <p>Scared shitless</p>
+        <img alt='Scared shitless' src='/images/photobooth/nov-04-big.jpg' />
+      </section>
       <section id='nov03'>
         <h2>Sunday November 3nd</h2>
         <p>You can see some stubbles</p>
@@ -116,7 +123,7 @@
     </footer>
   </body>
 </html>
-;T:rawI"Q%section#goal
+;T:rawI"[	%section#goal
   %h2 @eising goes #movember
   %p I want to gather some bucks for men's health during #movember. I've shaven off my beard on November 1st, and will grow a mo'!
   %p
@@ -125,7 +132,7 @@
 
 %section#thanks
   %h2 Thanks
-  %p To Reinier, Henk, Charis, Lauren, Roy and 1 anonymous person for the 85 euros already collected!
+  %p To Reinier, Henk, Charis, Lauren, Roy, Sander, Kilian and 1 anonymous person for the 130 euros already collected!
 
 %section#mocalendar
   %h2 Mocalendar
@@ -143,7 +150,8 @@
       %td{ :style => 'background-image:url(/images/photobooth/nov-03-small.jpg)' }
         %a{ :href => '#nov03' } 3
     %tr
-      %td 4
+      %td{ :style => 'background-image:url(/images/photobooth/nov-04-small.jpg)' }
+        %a{ :href => '#nov04' } 4
       %td 5
       %td 6
       %td 7
@@ -175,6 +183,11 @@
       %td 30
       %td.other 1
 
+%section#nov04
+  %h2 Monday November 4nd
+  %p Scared shitless
+  %img{ :src => '/images/photobooth/nov-04-big.jpg', :alt => 'Scared shitless' }
+
 %section#nov03
   %h2 Sunday November 3nd
   %p You can see some stubbles
@@ -193,7 +206,7 @@
 %section#okt31
   %h2 Thursday October 31st
   %p Still a bushy beard
-  %img{ :src => '/images/photobooth/okt-31-big.jpg', :alt => 'Still a bushy beard' };T:preI"ñ	<section id='goal'>
+  %img{ :src => '/images/photobooth/okt-31-big.jpg', :alt => 'Still a bushy beard' };T:preI"	<section id='goal'>
   <h2>@eising goes #movember</h2>
   <p>I want to gather some bucks for men's health during #movember. I've shaven off my beard on November 1st, and will grow a mo'!</p>
   <p>
@@ -203,7 +216,7 @@
 </section>
 <section id='thanks'>
   <h2>Thanks</h2>
-  <p>To Reinier, Henk, Charis, Lauren, Roy and 1 anonymous person for the 85 euros already collected!</p>
+  <p>To Reinier, Henk, Charis, Lauren, Roy, Sander, Kilian and 1 anonymous person for the 130 euros already collected!</p>
 </section>
 <section id='mocalendar'>
   <h2>Mocalendar</h2>
@@ -226,7 +239,9 @@
       </td>
     </tr>
     <tr>
-      <td>4</td>
+      <td style='background-image:url(/images/photobooth/nov-04-small.jpg)'>
+        <a href='#nov04'>4</a>
+      </td>
       <td>5</td>
       <td>6</td>
       <td>7</td>
@@ -262,6 +277,11 @@
       <td class='other'>1</td>
     </tr>
   </table>
+</section>
+<section id='nov04'>
+  <h2>Monday November 4nd</h2>
+  <p>Scared shitless</p>
+  <img alt='Scared shitless' src='/images/photobooth/nov-04-big.jpg' />
 </section>
 <section id='nov03'>
   <h2>Sunday November 3nd</h2>
@@ -667,4 +687,4 @@ footer
 
 if 'addEventListener' of window and 'localStorage' of document and 'querySelectorAll' of window
   window.addEventListener 'load', init, false;T;	@.;
-@.I"#/images/photobooth/nov-01-big/;T{;{ I"%/images/photobooth/nov-01-small/;T{;{ I"#/images/photobooth/nov-02-big/;T{;{ I"%/images/photobooth/nov-02-small/;T{;{ I"#/images/photobooth/nov-03-big/;T{;{ I"%/images/photobooth/nov-03-small/;T{;{ :versioni
+@.I"#/images/photobooth/nov-01-big/;T{;{ I"%/images/photobooth/nov-01-small/;T{;{ I"#/images/photobooth/nov-02-big/;T{;{ I"%/images/photobooth/nov-02-small/;T{;{ I"#/images/photobooth/nov-03-big/;T{;{ I"%/images/photobooth/nov-03-small/;T{;{ I"#/images/photobooth/nov-04-big/;T{;{ I"%/images/photobooth/nov-04-small/;T{;{ :versioni
